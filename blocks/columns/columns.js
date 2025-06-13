@@ -13,6 +13,9 @@ export default function decorate(block) {
           picWrapper.classList.add('columns-img-col');
         }
       }
+      if (block.classList.contains('select-pods')) {
+        col.classList.add('select-pod-btn');
+      }
     });
   });
 }

@@ -1,0 +1,57 @@
+.welcome {
+    padding: 96px 96px 60px 96px;
+}
+
+.welcome > div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.welcome h1 {
+    font-size: 70px;
+}
+
+.welcome h1,
+.welcome p {
+    margin: 0;
+    color: var(--black-primary);
+}
+
+.welcome div:nth-child(2) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+}
+
+.welcome .pod-btn a {
+    width: 100%;
+    border: 2px solid var(--black-primary);
+    border-radius: 20px;
+    text-align: center;
+    background-color: var(--red-primary);
+    color: var(--white-primary)
+}
+
+.typewriter{
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 2px solid var(--black-primary);
+  animation: typing 2s steps(20) forwards, blink 0.75s step-end 4;
+  width: 0;
+}
+
+.typewriter.done {
+    border-right: none;
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 20ch; }
+}
+
+@keyframes blink {
+  50% { border-color: transparent; }
+}
+
+
