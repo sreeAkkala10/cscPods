@@ -1,9 +1,9 @@
-# Your Project's Title...
-Your project's description...
+# CSC Pod Tracker
+Tracking enablement progress — lightweight, visual, and built on EDS
 
 ## Environments
-- Preview: https://main--{repo}--{owner}.aem.page/
-- Live: https://main--{repo}--{owner}.aem.live/
+- Preview: https://main--cscpods--sreeakkala10.aem.page/
+- Live: https://main--cscpods--sreeakkala10.aem.live/
 
 ## Documentation
 
